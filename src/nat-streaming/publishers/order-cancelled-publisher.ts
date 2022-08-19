@@ -1,7 +1,7 @@
 import { Events } from "../events/events";
-import { TicketCreated } from "../events/ticket-created";
+import { OrderCreated } from "../events/order-created";
 import { Publisher } from "./publisher";
 
-export class OrderCancelledPublisher extends Publisher<TicketCreated> {
+export class OrderCancelledPublisher extends Publisher<OrderCreated> {
     protected subject: Events = Events.ORDER_CANCELLED;
 }
