@@ -10,6 +10,8 @@ export * from "./nat-streaming/events/event";
 export * from "./nat-streaming/events/events";
 export * from "./nat-streaming/events/ticket-created";
 export * from "./nat-streaming/events/ticket-updated";
+export * from "./nat-streaming/events/order-created";
+export * from "./nat-streaming/events/order-cancelled";
 export * from "./nat-streaming/publishers/publisher";
 export * from "./nat-streaming/publishers/ticket-created-publisher";
 export * from "./nat-streaming/publishers/ticket-updated-publisher";

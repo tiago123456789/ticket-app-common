@@ -26,6 +26,8 @@ __exportStar(require("./nat-streaming/events/event"), exports);
 __exportStar(require("./nat-streaming/events/events"), exports);
 __exportStar(require("./nat-streaming/events/ticket-created"), exports);
 __exportStar(require("./nat-streaming/events/ticket-updated"), exports);
+__exportStar(require("./nat-streaming/events/order-created"), exports);
+__exportStar(require("./nat-streaming/events/order-cancelled"), exports);
 __exportStar(require("./nat-streaming/publishers/publisher"), exports);
 __exportStar(require("./nat-streaming/publishers/ticket-created-publisher"), exports);
 __exportStar(require("./nat-streaming/publishers/ticket-updated-publisher"), exports);
