@@ -3,5 +3,6 @@ export declare enum Events {
     ORDER_CANCELLED = "order:cancelled",
     ORDER_CREATED = "order:created",
     TICKET_CREATED = "ticket:created",
-    TICKET_UPDATED = "ticket:updated"
+    TICKET_UPDATED = "ticket:updated",
+    PAYMENT_APPROVED = "payment:approved"
 }

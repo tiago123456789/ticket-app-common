@@ -8,4 +8,5 @@ var Events;
     Events["ORDER_CREATED"] = "order:created";
     Events["TICKET_CREATED"] = "ticket:created";
     Events["TICKET_UPDATED"] = "ticket:updated";
+    Events["PAYMENT_APPROVED"] = "payment:approved";
 })(Events = exports.Events || (exports.Events = {}));

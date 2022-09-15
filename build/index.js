@@ -29,6 +29,7 @@ __exportStar(require("./nat-streaming/events/ticket-updated"), exports);
 __exportStar(require("./nat-streaming/events/order-created"), exports);
 __exportStar(require("./nat-streaming/events/order-cancelled"), exports);
 __exportStar(require("./nat-streaming/events/order-expirated"), exports);
+__exportStar(require("./nat-streaming/events/payment-approved"), exports);
 __exportStar(require("./nat-streaming/publishers/publisher"), exports);
 __exportStar(require("./nat-streaming/publishers/ticket-created-publisher"), exports);
 __exportStar(require("./nat-streaming/publishers/ticket-updated-publisher"), exports);
@@ -37,8 +38,10 @@ __exportStar(require("./nat-streaming/listeners/ticket-created-listener"), expor
 __exportStar(require("./nat-streaming/listeners/ticket-updated-listener"), exports);
 __exportStar(require("./nat-streaming/listeners/order-cancelled-listener"), exports);
 __exportStar(require("./nat-streaming/listeners/order-expirated-listener"), exports);
+__exportStar(require("./nat-streaming/listeners/payment-approved-listener"), exports);
 __exportStar(require("./nat-streaming/listeners/order-created-listener"), exports);
 __exportStar(require("./nat-streaming/publishers/order-cancelled-publisher"), exports);
 __exportStar(require("./nat-streaming/publishers/order-created-publisher"), exports);
 __exportStar(require("./nat-streaming/publishers/order-expirated-publisher"), exports);
+__exportStar(require("./nat-streaming/publishers/payment-approved-publisher"), exports);
 __exportStar(require("./types/order-status"), exports);
